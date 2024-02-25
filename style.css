@@ -1221,6 +1221,7 @@
   flex-direction: row;
   align-items: center;
   box-sizing: border-box;
+  text-decoration: none;
 }
 .button3 {
   cursor: pointer;
@@ -2259,6 +2260,9 @@
     padding-right: var(--padding-36xl);
   }
 
+  .stats{
+    height: 1200px;
+  }
 
 }
 @media screen and (max-width: 450px) {
