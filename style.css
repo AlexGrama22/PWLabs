@@ -809,7 +809,7 @@
   width: 280px;
   margin: 0 !important;
   top: 40px;
-  left: 504px;
+  left: 454px;
   position: absolute;
   border-radius: var(--br-9xs);
   background-color: var(--neutral-white);
@@ -824,8 +824,9 @@
 
 .stats0 {
   width: 280px;
+  height: 10px;
   margin: 0 !important;
-  bottom: -40px;
+  top: 550px;
   left: 204px;
   position: absolute;
   border-radius: var(--br-9xs);
@@ -1049,8 +1050,8 @@
 .illus-icon1 {
   height: 84px;
   width: 84px;
-  bottom: 57px;
-  left: 549px;
+  bottom: -57px;
+  left: 229px;
   object-fit: cover;
   z-index: 1;
 }
@@ -1107,7 +1108,7 @@
   width: 276px;
   margin: 0 !important;
   position: absolute;
-  bottom: -77px;
+  bottom: -127px;
   left: -204px;
   border-radius: var(--br-9xs);
   background-color: var(--neutral-white);
@@ -1166,6 +1167,7 @@
   font-size: var(--heading-1-size);
   color: var(--neutral-800);
   font-family: var(--caption);
+  height: 900px;
 }
 .unsplashmp0bgas-d1c-icon {
   height: 100%;
@@ -2028,6 +2030,8 @@
   color: var(--primary);
   font-family: var(--caption);
 }
+
+
 .xyx-constructions1 {
   position: relative;
 }
@@ -2096,6 +2100,20 @@
     margin-top: 10px;
   }
 }
+
+@media screen and (max-width: 1325px) {
+
+  .years-experience{
+    margin-top: 800px;
+  }
+
+
+
+}
+
+
+
+
 @media screen and (max-width: 1125px) {
   .next-button {
     flex-wrap: wrap;
