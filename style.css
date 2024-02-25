@@ -1213,6 +1213,7 @@
   font-family: var(--caption);
   color: var(--neutral-white);
   text-align: center;
+  text-decoration: none;
 }
 .ads1,
 .button3 {
