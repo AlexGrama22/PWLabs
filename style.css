@@ -70,23 +70,28 @@
 }
 
 .mascot-message {
-  display: none; /* Initially hidden */
+  display: none; 
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
   position: absolute;
   top: -10px;
-  left: -220px; /* Adjust based on your layout */
+  left: -220px; 
   width: 200px;
+  font-family: var(--caption);
+  font-size: var(--caption-size);
 }
 
 .mascot-cta {
-  margin-top: 10px;
+  color: var(--neutral-white) !important;
+  margin-top: 15px;
   display: block;
+  background: var(--cta-color);
   text-align: center;
-  color: #0000ff;
   cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 
@@ -2342,6 +2347,8 @@
 
 }
 @media screen and (max-width: 450px) {
+  
+  
   .feature-projects {
     font-size: var(--caption-size);
   }
