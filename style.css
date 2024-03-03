@@ -14,6 +14,28 @@
   color: var(--primary);
 }
 
+.mascot {
+  width: 100px; /* Adjust based on actual SVG size */
+  height: 100px; /* Adjust based on actual SVG size */
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  animation: mascotAnimation 5s infinite;
+  z-index: 40;
+}
+
+.mascotPng{
+  width: 200px;
+  height: auto;
+}
+
+@keyframes mascotAnimation {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(20px); }
+}
+
+
+
 .xyx-construct {
   margin: 0;
   position: relative;

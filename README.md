@@ -18,7 +18,7 @@ The Home section serves as the landing page for XYX Constructions. It features a
 
 ### About Us
 
-In the [About Us](#about-us-section) section, visitors can learn more about XYX Constructions' history, values, and the team behind our successful projects. This section highlights our reputation for quality, showcasing our happy clients, years in business, and completed projects.
+In the [About Us](#https://alexgrama22.github.io/PWLabs/#about-us-section) section, visitors can learn more about XYX Constructions' history, values, and the team behind our successful projects. This section highlights our reputation for quality, showcasing our happy clients, years in business, and completed projects.
 
 ### Projects
 
