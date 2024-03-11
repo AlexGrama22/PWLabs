@@ -40,11 +40,11 @@
 } */
 
 .mascot {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   position: fixed;
-  bottom: 100px;
-  right: 100px;
+  bottom: 20px;
+  right: 50px;
   z-index: 40;
   opacity: 0; 
   display: flex;
@@ -365,18 +365,18 @@
   font-size: var(--caption-size);
   color: var(--neutral-400);
 }
-.reasons3 {
+/* .reasons3 {
   display: flex;
   align-items: flex-start;
-}
+} */
 .reasons3 {
   width: 292px;
   border-radius: var(--br-9xs);
   background-color: var(--neutral-white);
   border: 1.4px solid var(--neutral-100);
   box-sizing: border-box;
-  flex-direction: column;
-  justify-content: flex-start;
+  /* flex-direction: column;
+  justify-content: flex-start; */
   padding: var(--padding-xl) var(--padding-mid) var(--padding-21xl)
     var(--padding-lgi);
   gap: 18px 0;
@@ -1044,9 +1044,7 @@
   max-width: 100%;
 }
 .ads,
-.button3:hover {
-  box-sizing: border-box;
-}
+
 .ads {
   width: 359px;
   display: flex;
@@ -1312,10 +1310,7 @@
   justify-content: center;
   z-index: 1;
 }
-.button3:hover {
-  background-color: rgba(230, 230, 230, 0.09);
-  border: 2px solid var(--color-gainsboro-100);
-}
+
 .ads1 {
   align-self: stretch;
   background-color: var(--neutral-white);
@@ -2144,31 +2139,6 @@
   font-family: var(--caption);
 }
 
-.pricing-section {
-  display: none; /* Hide by default */
-  text-align: center;
-  padding: 20px;
-  background-color: #f0f0f0;
-  color: #333;
-}
-
-.pricing-plan {
-  margin: 20px 0;
-  padding: 50px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.pricing-plan h3{
-  margin-top: 10px;
-  font-weight: bold;
-  font-size: var(--body-default-size);
-
-}
-
-.pricing-plan p{
-  margin-top: 10px;
-}
 
 @media screen and (max-width: 1325px) {
   .navitems {
@@ -2376,12 +2346,8 @@
   
   }
 
-  .pricing-section {
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5% ;
-    display: block; /* Show only on screens 450px wide or less */
-  }
+
+
   
 }
 
