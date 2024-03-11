@@ -6,7 +6,8 @@
 
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./dist/styles.css">
+    <link href="./new.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Work Sans:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
@@ -15,6 +16,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Mixed:wght@400&display=swap"
     />
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
   </head>
   <body>
     <div id="mascot" class="mascot">
@@ -66,46 +68,48 @@
         </div>
         <h1 class="building-things-is">Building things is our mission.</h1>
       </section>
-      <section class="reasons">
+      <section class="reasons w-full mt-8 flex justify-center flex-col items-center px-8">
         <div class="navigation">
-          <h2 class="our-reputation">Our Reputation</h2>
+          <h2 class="our-reputation w-full flex justift-center">Our Reputation</h2>
         </div>
-        <div class="next-button">
-          <div class="reasons1">
-            <img class="icon" loading="eager" alt="" src="./public/icon.svg" />
+        <div class="flex flex-col sm:grid gap-y-5 sm:gap-x-4 lg:grid-cols-3 gap-4 sm:grid-cols-2 mt-4">
+          <div class="w-[292px] rounded-lg bg-white flex flex-col items-start justify-start gap-y-[18px] border-2 border-gray-200 p-4">
+            <img class="w-[40px] h-[40px] relative" loading="eager" alt="" src="./public/icon.svg" />
 
-            <b class="best-services">Best Services</b>
-            <div class="lorem-ipsum">
+            <b class="text-md relative">Best Services</b>
+            <div class="text-base text-gray-500 relative">
               Nullam senectus porttitor in eget. Eget rutrum leo interdum.
             </div>
           </div>
-            <div class="reasons2">
+          <div class="w-[292px] rounded-lg bg-white flex flex-col items-start justify-start gap-y-[18px] border-2 border-gray-200 p-4">
               <img
-                class="icon1"
+                class="w-[40px] h-[40px] relative"
                 loading="eager"
                 alt=""
                 src="./public/icon.svg"
               />
 
-              <b class="best-services1">Best Teams</b>
-              <div class="lorem-ipsum1">
+              <b class="text-md relative">Best Teams</b>
+              <div class="text-base text-gray-500 relative">
                 Cursus semper tellus volutpat aliquet lacus.
               </div>
             </div>
           
-          <div class="reasons3">
-            <img
-              class="icon2"
-              loading="eager"
-              alt=""
-              src="./public/icon-2.svg"
-            />
+          <div class="col-span-2 flex justify-center lg:col-span-1 ">
+            <div class="w-[292px] rounded-lg bg-white flex flex-col items-start justify-start gap-y-[18px] border-2 border-gray-200 p-4">
+              <img
+                class="w-[40px] h-[40px] relative"
+                loading="eager"
+                alt=""
+                src="./public/icon-2.svg"
+              />
 
-            <b class="best-services2">Best Designs</b>
-            <div class="lorem-ipsum2">
-              Ultricies at ipsum nunc, tristique nam lectus.
+              <b class="text-md relative">Best Designs</b>
+              <div class="text-base text-gray-500 relative">
+                Ultricies at ipsum nunc, tristique nam lectus.
+              </div>
             </div>
-          </div>
+          </div>  
         </div>
       </section>
       <!-- <section class="sectionStation">
@@ -285,17 +289,17 @@
         </div>
       </section>
 
-      <section id="pricing-section" class="pricing-section">
-        <div class="pricing-plan">
+      <section id="pricing-section" class="pricing-section w-full p-[20px] bg-[#f0f0f0] ">
+        <div class="pricing-plan my-5 p-12 bg-white shadow-md flex justift-center flex-col items-center">
           <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 3H19C19.55 3 20 3.45 20 4V20C20 20.55 19.55 21 19 21H5C4.45 21 4 20.55 4 20V4C4 3.45 4.45 3 5 3Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M4 9H20" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M9 21V9" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <h3>Basic Plan</h3>
-          <p>$1000 - Basic construction services</p>
+          <h3 class="mt-[10px] font-bold text-sm">Basic Plan</h3>
+          <p class="mt-[10px]">$1000 - Basic construction services</p>
         </div>
-        <div class="pricing-plan">
+        <div class="pricing-plan my-5 p-12 bg-white shadow-md flex justift-center flex-col items-center">
           <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 7H21V21H3V7Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M16 3V7" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -303,17 +307,17 @@
             <path d="M3 14H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M12 21V14" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <h3>Standard Plan</h3>
-          <p>$2000 - Standard construction with additional services</p>
+          <h3 class="mt-[10px] font-bold text-sm">Standard Plan</h3>
+          <p class="mt-[10px]">$2000 - Standard construction with additional services</p>
         </div>
-        <div class="pricing-plan">
+        <div class="pricing-plan my-5 p-12 bg-white shadow-md flex justift-center flex-col items-center">
           <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 10H21V21H3V10Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M7 10V7C7 5.89543 7.89543 5 9 5H15C16.1046 5 17 5.89543 17 7V10" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M14 17H10V21H14V17Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <h3>Premium Plan</h3>
-          <p>$3000 - Comprehensive construction package</p>
+          <h3 class="mt-[10px] font-bold text-sm">Premium Plan</h3>
+          <p class="mt-[10px]">$3000 - Comprehensive construction package</p>
         </div>
       </section>
   
@@ -333,7 +337,7 @@
             <span>Just one call away: +373 69 83 3910</span>
           </div>
         </div>
-        <a href="tel:+37369833910" class="button3">
+        <a href="tel:+37369833910" class="button3 hover:border-white">
           <div class="detail">Get your consultation</div>
         </a>        
       </section>
